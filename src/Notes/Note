@@ -1,0 +1,99 @@
+
+Day 1
+
+1.crete react app
+2.then i make a repo with name ecommerce_web
+ --> new repo then details and submit
+ -->then goto vs code and open git bash
+ -->git init 
+ -->git add .
+ -->git commit -m"any msg"
+ -->git remote add origin ------link of repo
+ -->git push -u origin master
+
+3.remove unnecessary files from folder of react
+4.remove all the css codes
+
+5.key points for React Developer
+i.Decide on Components
+ii.Decide the state and where it lives
+iii.What changes when state changes
+
+evening session
+
+1.make the folder for
+i.components--for reusable codes
+ii.pages--for not resulable that is fixed on app .this is problly used once in the app
+its also the component but not resulable
+
+2.make a first page i.e homepage always right folder in lowercase but component
+in PascalCase
+inside homepage lets make homepage component
+
+In the homepage homepage is main component inside homepage there is directory-menu component
+inside this there is menu-item inside menu-item there is content that is title and subtitile
+
+we do simple without react but what we want to do is 
+homepage import the directory menu component and inside directory-menu  we make menu-component
+homepage --> directory-menu-->menu-item-->content
+
+then i make indiviual component for directory and menuitem
+and in the directory i use class based bcoz to store data in the state and passed to the menuitem 
+in the menuitem i use img title subtitle from the data 
+
+
+
+
+Day 2 7:11 Am --
+i make directory as class based component and inside render i use map method to iterate over thes
+section and passed the id,imageUrl and title as props to the MenuItem component
+
+to use images i use the style method 
+style = {{backgroundImage:`url($imageUrl)}}` which dynamically fetch the image which is as props
+
+evening time:
+
+React Routing:
+-->single page application means yeutai file html css js ma multiple page haru
+jasto hamro app ma shop and signin page haru
+react routing ley navigation without page reloading provide garxa 
+then we add npm install react-router
+i.index.js import {BrowserRouter} from react-router-dom wrap the App component with BrowserRouter it provides all functionality
+for routing that means <BrowserRouter><App/></BrowserRouter>
+
+ii.Route 
+import Route
+<Route path exact component />
+path is location of component 
+exact is used to render only that component not other if homepage only homepage is render not other page
+component ={nameOfComponent}
+
+iii.Switch 
+to use Switch we wrap the Route 
+its used to check that the location is match or not
+its gives more control over the code 
+
+
+15.react-router-dom
+
+
+
+Day 3 
+6:30
+
+when we passed the component in the Route it gives the three properties
+i.match
+-->url '/' it just matches / if i typed the /dkfdskf still it match oonly / all the url of the component
+--> path is the pattern that we have passed in the Route component
+--> isExact is only true when entire url is matched
+-->params is an object of url properties its used to jsto kisanbasyal/profile/id 
+or kunai shopping page ma yo item ma jan paro vani hats/12
+
+-->History
+its used to navigate to diffrent pages
+
+
+WithRouter
+
+-->
+
