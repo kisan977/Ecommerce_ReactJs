@@ -95,5 +95,13 @@ its used to navigate to diffrent pages
 
 WithRouter
 
--->
+-->its used for those component which has no access of history props.we only pass route in 
+homepage thats why it  gives history but what about shop page hats page to acess the history props
+.in that case we use the WithRouter properties
+how to WithRouter
+firsst import {WithRouter} from 'react-router-dom'
+ then at the end wrap the component with WithRouter(App);
 
+
+DAY 4
+Let's Commit the code
