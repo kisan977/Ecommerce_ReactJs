@@ -1,5 +1,11 @@
 
 Day 1
+folder name : [folder-name] with small letter if name of two words
+component name : [ComponentName]
+styling file : same ComponentName
+
+
+
 
 1.crete react app
 2.then i make a repo with name ecommerce_web
@@ -105,3 +111,28 @@ firsst import {WithRouter} from 'react-router-dom'
 
 DAY 4
 Let's Commit the code
+1.git add .
+2.git add -A   
+3.git commit -m ""
+4.git push origin master
+
+
+now we are going to build the Shop Page which has collection Item and collection Preview component
+
+we need to make the shopPage as class based component because its store the data related to
+collection item 
+shop page ma collections state ma shop_data rakhiyo which has information of the items
+
+
+next we have to build the Preview collection component which is responsible to iterate over the
+collection and passed to the collection_item component
+
+
+evening 9:00 pm 4/24/2021
+
+1. we make collection_item component
+there is  no need of state so we make it functional component .
+and pass the parameter i.e id,name ,price,imageUrl that is come from shopPage
+
+then we have ready with the collection_item and import it on collection_preview
+on that we pass ...otherItemsProps
