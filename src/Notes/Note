@@ -136,3 +136,13 @@ and pass the parameter i.e id,name ,price,imageUrl that is come from shopPage
 
 then we have ready with the collection_item and import it on collection_preview
 on that we pass ...otherItemsProps
+
+
+5/26/2021
+
+Lets move to the Header section , now we have to make navbar section that includes 
+logo and other pages 
+inside header lets first import the logo.svg bcz its svg file 
+import{ReactComponent as logo} from './'
+
+then put all the images in the folder that is assets
