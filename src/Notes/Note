@@ -146,3 +146,29 @@ inside header lets first import the logo.svg bcz its svg file
 import{ReactComponent as logo} from './'
 
 then put all the images in the folder that is assets
+
+
+after 11 AM 
+now lets learn forms in react 
+state is placed onto the signin and signup component not in the signin page component
+we should decide where the state lives thats why signin has own state and signup has own state they reallly
+dont care about each other
+
+
+5/27/2021
+
+lets build sign in component
+
+first create sign-in-and-sign-up page
+we make this functional component because all the state are placed in their own component
+
+lets build signin component first because we setup firebase in the next session
+
+signin is class based because the username and password of user should be store in the state
+class based ma we use {this.handleSubmit} for any function
+
+
+evening:
+lets first make formInput component 
+5/28/2021
+
