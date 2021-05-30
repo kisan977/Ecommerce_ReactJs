@@ -169,6 +169,74 @@ class based ma we use {this.handleSubmit} for any function
 
 
 evening:
-lets first make formInput component 
-5/28/2021
+
+5/25/2021
+lets first make formInput component
+custom button and formInput is made with component
+
+evening:
+firebase 
+
+firebase is database where the users username and password is stored if they sign in the page
+all the data 
+its used for authentication and storage
+we intregrate the firebase now 
+1.firebase and make account on  it
+2.frontend --what the user see html css js eg:homepage ,shoppage,hatspage
+3.backend -- server,database,authentication 
+---> server place where send the request for data then it fetch the data from 
+database and send to users 
+jsto hamlai 20 new hats chayeaxa vani paila hamle server lai request pathuxam ani server ley
+kunai method bata database data lera aayera lai userss lai dinxa
+
+
+
+i.go to console
+ii.click on add a new project
+iii.then create a project 
+iv.after that you go to a new dashboard where we setup authentication
+v.then go to </> icon and click 
+vi.then add your app name
+7. then we only firebase config object
+8. npm install firebase
+
+
+
+
+5/29/2021
+
+copy the firebaseConfig object
+lets make firebase folder and firebase.utils.js
+
+after some code 
+
+goto firebase url then on authentication enable Google signin
+then hamlai kun ma signInWithGoogle chayeko tae component ma gayera import garaa
+teslai button ma call gardini
+
+
+day time
+ in this time we check if the google sign in sucessfull or not
+ app lai class based component banani kina vani kun users ley sign in garo tyo chay arko component 
+ ma pass garna parxa kunai time so convert class to app
+
+ state ma currentuser rakhiyo null
+ ani jsle googlesignin garxa tae user chae currentuser ma basxa
+ then jsle signin garxa tyo user app ma taha paeyo
+
+
+ 5/30/2021
+ google authentication  part 3
+ in this part we wil see how to signout our authentication
+ we have the service of auth .signout but where to put it
+ our header should be aware of user sign in so that we make it signout option
+
+ we have the currentuser state so its pass as propos to header component
+ if currentuser exits then its signout if not signin
+currentuser ? 
+div onclicl = auth.signout>
+:
+link singin
+
+first we import the auth libaray in header 
 
